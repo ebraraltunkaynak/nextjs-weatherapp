@@ -4,4 +4,10 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images:{
+    domains: [
+      'images5.alphacoders.com',"openweathermap.org"
+    ]
+  }
+}
